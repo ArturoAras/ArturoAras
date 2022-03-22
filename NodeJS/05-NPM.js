@@ -15,7 +15,7 @@
 //~ (solo patches) => si escribimos en nuestro package.json: ~0.13.0; cuando salga la versión 0.13.1 se actualizará en nuestro proyecto, ya que es un Patch; cuando salga la version 0.14.0 no se actualizará ya que es una Minor Release; cuando salga la version 1.1.0 no se actualizará ya que es una Major Release.
 //^ (patches y actualizaciones menores)
 //* (todas las actualizaciones)
-//Más símbolos =
+//Más símbolos = 
 // > descargar/actualizar a cualquier versión posterior a la dada
 // >= descargar/actualizar a cualquier versión igual o posterior a la dada
 // <= descargar/actualizar a cualquier versión igual o anterior a la dada
