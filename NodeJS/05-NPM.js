@@ -14,11 +14,11 @@
 //Manejo avanzado del versionado = cada una de las versiones de las dependencias está precedida por un símbolo (~^*) que indica la forma en la que deeamos que se actualice ese módulo cada vez que ejecutemos npm install.
 //~ (solo patches) => si escribimos en nuestro package.json: ~0.13.0; cuando salga la versión 0.13.1 se actualizará en nuestro proyecto, ya que es un Patch; cuando salga la version 0.14.0 no se actualizará ya que es una Minor Release; cuando salga la version 1.1.0 no se actualizará ya que es una Major Release.
 //^ (patches y actualizaciones menores)
-//* (todas las actualizaciones)
+//* (todas las actualizaciones) 
 //Más símbolos = 
 // > descargar/actualizar a cualquier versión posterior a la dada
 // >= descargar/actualizar a cualquier versión igual o posterior a la dada
 // <= descargar/actualizar a cualquier versión igual o anterior a la dada
 // < descargar/actualizar a cualquier versión anterior a la dada
 
-//Finalmente, si no se pone singún símbolo, se acepta únicamente la versión especificada. Si en lugar de escribir una versión, se escribe 'latest', se descargará o actualizará siempre a la última versión disponible. Adicionalmente se pueden crear combinaciones con los criterios anteriores. Por ejemplo: 1.0.0 || >=1.1.0 < 1.2.0 usará la versión 1.0.0 (si la encuentra) o alguna a partir de 1.1.0, pero anteriores a 1.2.0
+//Finalmente, si no se pone singún símbolo, se acepta únicamente la versión especificada. Si en lugar de escribir una versión, se escribe 'latest', se descargará o actualizará siempre a la última versión disponible. Adicionalmente se pueden crear combinaciones con los criterios anteriores. Por ejemplo: 1.0.0 || >=1.1.0 < 1.2.0 usará la versión 1.0.0 (si la encuentra) o alguna a partir de 1.1.0 pero anteriores a 1.2.0
