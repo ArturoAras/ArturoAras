@@ -18,7 +18,7 @@ app.use('/api', router);
 app.listen(8080);
 
 //Servicio de archivos estáticos en Express
-//Para el serviio de archivos estáticos (por ejemplo imágenes, archios CSS y archivos JavaScript) se utiliza la función de middleware incorporada "express.static". Esta función recibe como parámetro el nombre del directorio que contiene los activos estáticos. El siguiente código configura el servicio de imágenes, archivos CSS y arcivos JavaScript en un directorio denominado public:
+//Para el serviio de archivos estáticos (por ejemplo imágenes, archivos CSS y archivos JavaScript) se utiliza la función de middleware incorporada "express.static". Esta función recibe como parámetro el nombre del directorio que contiene los activos estáticos. El siguiente código configura el servicio de imágenes, archivos CSS y arcivos JavaScript en un directorio denominado public:
 app.use(express.static('public'));
 //Si se quiere utilizar varios directorios de archivos estáticos se invoca la función de middleware 'express.static' varias veces.
 //Express busca los archivos en el ordenen el que se definen los directorios estáticos con la función de middleware 'express.static'
