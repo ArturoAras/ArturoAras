@@ -1,8 +1,0 @@
-Funciones globales =>
-
-- print() => imprime en consola el parámetro que se le pase por paréntesis.
-- len() => cuenta la longitud del elemento que se le pase como parámetro.
-- del => borra el objeto que se le pase a continuación. Puede ser tanto una propiedad en específico de un objeto o un un objeto en si. Ejemplos=>
-	del diccionario
-	del diccionario["nombre"]
-	del variable
