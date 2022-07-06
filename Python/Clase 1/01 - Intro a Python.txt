@@ -1,0 +1,25 @@
+REPL (Read, Eval, Print, Loop) en Python => es donde se pueden ingresar instrucciones básicas para trabajar con Python. Para ingresar al REPL de Python hay que abrir una terminal y escribir "python" si estás en Windows o "python3" se estás en Linux. Desde aquí podemos ingresar operaciones sencillas como sumas, restas, multiplicaciones o divisiones.
+Si me posiciono en una carpeta que tenga un archivo .py y, desde el CMD escribo "python nombreDelArchivo" el REPL va a ejecutar el archivo.
+Para salir del REPL se puede escribir el comando "exit()" o, en el caso de MacOS, se puede salir con Ctrl+D.
+
+
+Identación
+Python depende mucho de la identación, por lo que si mi código no está correctamente identado el programa no se va a ejecutar correctamente.
+
+Comentarios
+En Python los comentarios comienzan con el símbolo #, ej => #Esto es un comentario
+
+Tipos de datos
+Numéricos (enteros, flotantes, complejos), texto y booleanos (true or false)
+
+Operadores matemáticos
++ suma, - resta, / división, * multiplicación, % módulo (resto en una división), ** exponente (para elevar un número a una determinada cantidad).
+
+Variables
+En Python las variables son definidas por el contenido y no por el contenedor como en muchos otros lenguajes. Por lo que si quiero definir una nueva variable no es necesario definirla anteriormente con una palabra clave.
+
+Constantes
+Para diferenciar a las constantes de las variables simplemente se estas se escriben en mayúculas, ej: nombre = "pepe" (variable) || NOMBRE = "pepe" (constante).
+
+El nombre de las variables y  constantes tiene que empezar con una letra, NO se las puede nombrar con números o caractéres especiales en la primera posición.
+También se pueden declarar más de una variable en la misma línea de la siguiente forma => a, b, c = "hola", "no", "si"
