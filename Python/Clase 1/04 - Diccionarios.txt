@@ -1,0 +1,32 @@
+Diccionarios
+Los diccionarios en Python se definen mediante llaves, su sintaxis es igual a la de un objeto en JavaScript, ejemplo=> diccionario = {
+			"nombre":"Arturo",
+			"apellido":"Aras",
+			"edad":25
+		}
+
+Hay varias formas de acceder a los valores de los diccionarios, la más sencilla es con el nombre seguido de corchetes y el nombre de la key a la que quiero acceder.
+
+diccionario["nombre"] 
+diccionario.get("nombre") => con el método get() ahorro el uso de corchetes y soy más explícito.
+
+- Para cambiar el valor de una propiedad del diccionario simplemente hay que acceder a la propiedad e igualarla al nuevo valor que quiero, ej: diccionario["edad"] = 26
+- En el caso de que quiera añadir alguna propiedad al diccionario solamente tengo que escribir lo mismo que para cambiar la propiedad pero con el nombre de la nueva key, ejemplo=> diccionario["altura"] = "181"
+- Para eliminar una propiedad en específico del diccionario se utiliza el método pop(key) o si solamente quiero eliminar el último valor puedo utilizar el método popItem().
+- Para copiar un diccionario se utiliza el método copy() al igual que en una lista. Ej=> dic2 = diccionario.copy()
+
+
+Diccionarios anidados
+Simplemente son diccionarios que contienen otros diccionarios dentro. Ejemlo =>
+	gatitos = {
+		"Fluffy" : {
+			"nombre":"Fluffy",
+			"edad": 4
+		},
+		"Mamba" : {
+			"nombre": "Black Mamba",
+			"edad": 3
+		}
+	}
+Otra forma de crear diccionarios es utilizando el constructor dict(). Para utilizar este constructor primero hay que crear una variable y luego hay que pasarle los valores de las llaves que va a tener el diccionario. Ej =>
+	perros = dict(nombre="Bolt", edad=6)

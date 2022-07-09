@@ -1,0 +1,23 @@
+El if en python funciona igual que en cualquier otro lenguaje, lo que cambia es la sintaxis.
+	if 2 < 5:
+		print('2 es menor que 5')
+
+Si el código que está en el if no fuese a ejecutarse podemos agregar una sentencia elif. La sentencia elif puede repetirse las veces que uno quiera; a un if puede seguirlo la cantidad de elif que sean necesarios. 
+Además, si ninguna de las condiciones anteriores se cumplió, puedo agregar una sentencia else al final. También es posible prescindir de la sentencia elif y encadenar un else a continuación de un if.
+
+
+IF corto y ternario
+Es posible escribir la sentencia if en una sola línea de la siguiente manera=>
+	if 2 < 5: print('2 es menor que 5')
+
+Ya si quiero incluir otra sentencia (como por ejemplo un else) puedo utilizar lo que se conoce como if ternario, que tiene la siguiente sintaxis =>
+print('devuelve true') if 5 > 2 else print('devuele false')
+
+
+AND y OR
+Cuando uno evalúa en un if, es posible indicar más de un parámetro, esto se logra utilizando las intrucciones and y/o or. Ejemplo=>
+	if 2 < 5 and 3 > 2:
+		print('ambas son true')
+Si solo necesito que una de las condiciones sea verdadera puedo utiliar la sentencia or =>
+	if 1 > 0 or 1 < 0:
+		print('una es true')
